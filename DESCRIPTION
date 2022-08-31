@@ -1,0 +1,16 @@
+Package: montyhall
+Title: Plays the Monty Hall Game
+Version: 0.0.0.9000
+Authors@R: 
+    person("Raquel", "Mac Donald", , "ramacdo1@asu.edu", role = c("aut", "cre"),
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+Description: This package contains all the necessary code to create and run the Monty Hall game. It also allows for the user to determine which strategy would be better, either switch or stay, when playing the game, by providing a loop function. This function will create a proportion table to help visualize which strategy is better over an N number of games. 
+Depends:
+	dplyr
+License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
+    license
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.1
+
